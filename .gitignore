@@ -1,0 +1,77 @@
+# -----------------------------
+# Python cache & build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.tmp
+
+# Virtual environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/
+
+# -----------------------------
+# Model & Large Files
+# -----------------------------
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+checkpoints/
+models/
+
+# Tokenizers
+*_tokenizer.pkl
+
+# If you want to include model/tokenizers manually,
+# remove the above lines.
+
+# -----------------------------
+# OS Generated Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# VSCode / Editor Settings
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Node modules (if future UI)
+# -----------------------------
+node_modules/
+
+# -----------------------------
+# Images / temporary files
+# -----------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Allow specific images in your README (optional)
+!assets/
+!images/
+!docs/
