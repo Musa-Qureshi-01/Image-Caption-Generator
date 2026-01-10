@@ -6,7 +6,6 @@ __pycache__/
 *.pyo
 *.pyd
 *.pdb
-*.pkl
 *.tmp
 
 # Virtual environment
@@ -33,12 +32,7 @@ env/
 *.ckpt
 checkpoints/
 models/
-
-# Tokenizers
 *_tokenizer.pkl
-
-# If you want to include model/tokenizers manually,
-# remove the above lines.
 
 # -----------------------------
 # OS Generated Files
@@ -58,12 +52,12 @@ Thumbs.db
 *.log
 
 # -----------------------------
-# Node modules (if future UI)
+# Node modules (future)
 # -----------------------------
 node_modules/
 
 # -----------------------------
-# Images / temporary files
+# Ignore ALL images everywhere
 # -----------------------------
 *.png
 *.jpg
@@ -71,7 +65,10 @@ node_modules/
 *.gif
 *.svg
 
-# Allow specific images in your README (optional)
+# -----------------------------
+# BUT allow assets folder images
+# -----------------------------
 !assets/
-!images/
+!assets/**
+!images/ 
 !docs/
