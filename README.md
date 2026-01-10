@@ -102,7 +102,7 @@ Matplotlib
 Pillow
 
 Streamlit
-
+```
 <h2 id="notebook-explanation">Notebook Explanation</h2>
 The Jupyter Notebook covers:
 
@@ -143,7 +143,7 @@ Saving the best model (.keras)
 5. Inference
 Predict token-by-token
 
-Stop at "endseq"
+Stop at "endseq."
 
 Convert indices to words
 
@@ -172,7 +172,6 @@ Creating sequence pairs
 Training the decoder LSTM
 
 Validating performance
-
 Includes callbacks:
 
 EarlyStopping
@@ -221,13 +220,12 @@ Run locally:
 bash
 Copy code
 streamlit run main.py
+
 <h2 id="results">Results</h2>
 Example output captions:
 
 "A brown dog running through a field."
-
 "A group of people sitting at a table outdoors."
-
 "A child playing with a toy on the floor."
 
 The model performs well on natural images, outdoor scenes, animals, and object-centric photos.
@@ -235,9 +233,7 @@ The model performs well on natural images, outdoor scenes, animals, and object-c
 <h2 id="author">Author</h2>
 Musa Qureshi
 GitHub: https://github.com/Musa-Qureshi-01
-
 LinkedIn: https://www.linkedin.com/in/musaqureshi
-
 Twitter (X): https://x.com/Musa_Qureshi_01
 
 <h2 id="contributing">Contributing</h2>
